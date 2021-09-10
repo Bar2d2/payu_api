@@ -1,6 +1,6 @@
 module PayuAPI
   class Client
-    extend Dry::Initializer::Mixin
+    extend Dry::Initializer
 
     option :pos_id
     option :auth_token

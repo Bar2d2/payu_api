@@ -1,6 +1,6 @@
 module PayuAPI
   class ApiRequest < Request
-    extend Dry::Initializer::Mixin
+    extend Dry::Initializer
 
     param :client
     param :method

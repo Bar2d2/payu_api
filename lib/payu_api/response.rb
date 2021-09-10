@@ -1,6 +1,6 @@
 module PayuAPI
   class Response
-    extend Dry::Initializer::Mixin
+    extend Dry::Initializer
 
     option :http_response
 

@@ -1,6 +1,6 @@
 module PayuAPI
   class BuildSignature
-    extend Dry::Initializer::Mixin
+    extend Dry::Initializer
 
     option :body
     option :second_key
